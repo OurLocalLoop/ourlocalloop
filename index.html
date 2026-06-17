@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Local Loop, Discover Local Businesses in Western Australia</title>
+  <meta name="description" content="Discover local makeup artists, photographers, florists, cake designers and more for your next event across Perth, Mandurah and Rockingham.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo-svg">
+        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#6833FF"/>
+              <stop offset="100%" style="stop-color:#9B66FF"/>
+            </linearGradient>
+          </defs>
+          <circle cx="19" cy="19" r="16" stroke="#FF8A00" stroke-width="2.5" fill="none"/>
+          <path d="M19 8C14.03 8 10 12.03 10 17C10 22.5 19 30 19 30C19 30 28 22.5 28 17C28 12.03 23.97 8 19 8Z" fill="url(#pinGrad)"/>
+          <circle cx="19" cy="17" r="3.5" fill="white"/>
+        </svg>
+        <div class="logo">
+          <span class="logo-local">Our Local </span><span class="logo-loop">Loop</span>
+        </div>
+      </div>
+      <nav style="margin-left:auto">
+        <a href="about.html" style="font-size:13px;font-weight:600;color:var(--dark-purple);text-decoration:none">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-eyebrow">Western Australia</div>
+    <h1>Discover <span>amazing</span> local businesses</h1>
+    <p>Start searching. We've got you covered, locally.</p>
+    <div class="search-bar">
+      <span>🔍</span>
+      <input type="text" id="search-input" placeholder="Search by name or service..." autocomplete="off">
+      <button class="search-btn" onclick="doSearch()">Search</button>
+    </div>
+    <div class="bubbles-wrap" id="bubbles-wrap"></div>
+  </section>
+
+  <section class="filters-section">
+    <div class="filters-inner">
+      <select class="filter-select" id="filter-location">
+        <option value="">All locations</option>
+        <option value="Perth">Perth</option>
+        <option value="Mandurah">Mandurah</option>
+        <option value="Rockingham">Rockingham</option>
+      </select>
+      <select class="filter-select" id="filter-event">
+        <option value="">All events</option>
+        <option value="Wedding">Wedding</option>
+        <option value="Engagement">Engagement</option>
+        <option value="Birthday">Birthday</option>
+        <option value="Baby Shower">Baby Shower</option>
+        <option value="Kids Party">Kids Party</option>
+        <option value="Prom/Formal">Prom/Formal</option>
+        <option value="Photoshoot">Photoshoot</option>
+        <option value="Corporate">Corporate</option>
+        <option value="Christmas &amp; Seasonal">Christmas &amp; Seasonal</option>
+        <option value="Everyday / General">Everyday / General</option>
+        <option value="Other">Other</option>
+      </select>
+      <select class="filter-select" id="filter-category">
+        <option value="">All categories</option>
+      <option value="Makeup Artist">Makeup Artist</option>
+      <option value="Hairdresser/Hair Stylist">Hairdresser/Hair Stylist</option>
+      <option value="Bridal Makeup">Bridal Makeup</option>
+      <option value="Lash Artist">Lash Artist</option>
+      <option value="Nail Tech">Nail Tech</option>
+      <option value="Skincare">Skincare</option>
+      <option value="Spray Tan">Spray Tan</option>
+      <option value="Massage &amp; Wellness">Massage &amp; Wellness</option>
+      <option value="Personal Trainer">Personal Trainer</option>
+      <option value="Home Studio">Home Studio</option>
+      <option value="Photographer">Photographer</option>
+      <option value="Videographer">Videographer</option>
+      <option value="Graphic Designer">Graphic Designer</option>
+      <option value="Content Creator">Content Creator</option>
+      <option value="DJ &amp; Music">DJ &amp; Music</option>
+      <option value="Live Entertainment">Live Entertainment</option>
+      <option value="Cake Maker">Cake Maker</option>
+      <option value="Catering">Catering</option>
+      <option value="Home Baker">Home Baker</option>
+      <option value="Personal Chef","Food Truck">Personal Chef</option>
+        <option value="Food Truck">Food Truck</option>
+      <option value="Coffee &amp; Drinks">Coffee &amp; Drinks</option>
+      <option value="Gardener &amp; Landscaping">Gardener &amp; Landscaping</option>
+      <option value="Handyman">Handyman</option>
+      <option value="Cleaner">Cleaner</option>
+      <option value="Painter &amp; Decorator">Painter &amp; Decorator</option>
+      <option value="Pool &amp; Spa Care">Pool &amp; Spa Care</option>
+      <option value="Event Planner">Event Planner</option>
+      <option value="Florist">Florist</option>
+      <option value="Venue">Venue</option>
+      <option value="Wedding Vendor">Wedding Vendor</option>
+      <option value="Hire &amp; Styling">Hire &amp; Styling</option>
+      <option value="Face Painter &amp; Entertainment">Face Painter &amp; Entertainment</option>
+      <option value="Naturopath &amp; Wellness">Naturopath &amp; Wellness</option>
+      <option value="Counselling &amp; Coaching">Counselling &amp; Coaching</option>
+      <option value="Kids Activities">Kids Activities</option>
+      <option value="Family Daycare">Family Daycare</option>
+      <option value="Babysitter/Nanny">Babysitter/Nanny</option>
+      <option value="Electrician">Electrician</option>
+      <option value="Plumber">Plumber</option>
+      <option value="Builder">Builder</option>
+      <option value="Pest Control">Pest Control</option>
+      <option value="Car &amp; Auto">Car &amp; Auto</option>
+      <option value="Jeweller">Jeweller</option>
+      <option value="Candle Maker">Candle Maker</option>
+      <option value="Dress Alterations &amp; Sewing">Dress Alterations &amp; Sewing</option>
+      <option value="Hair Accessories">Hair Accessories</option>
+      <option value="Laser Cutting &amp; Homewares">Laser Cutting &amp; Homewares</option>
+      <option value="Kids Clothing">Kids Clothing</option>
+      <option value="Personalised Gifts">Personalised Gifts</option>
+      <option value="Other">Other</option>
+      </select>
+      <span class="filter-count" id="result-count"></span>
+    </div>
+  </section>
+
+  <main class="main">
+    <div class="view-tabs">
+      <button class="view-tab active" id="tab-all" onclick="switchTab('all')">
+        All businesses
+      </button>
+      <button class="view-tab" id="tab-favs" onclick="switchTab('favs')">
+        ♥ My Favourites <span class="tab-count" id="fav-count">0</span>
+      </button>
+    </div>
+    <div class="grid" id="business-grid"></div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Our Local Loop · Western Australia · <a href="mailto:ourlocalloop@gmail.com">ourlocalloop@gmail.com</a> · <a href="https://forms.gle/MzRM2XSE1ScT5haV7" target="_blank" rel="noopener">List your business</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About, Our Local Loop</title>
+  <meta name="description" content="Our Local Loop is a local business discovery platform connecting Western Australian communities with talented local vendors, creatives and service providers.">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .about-hero {
+      background: var(--peach);
+      padding: 52px 24px 48px;
+      text-align: center;
+    }
+    .about-hero h1 {
+      font-size: 32px;
+      font-weight: 700;
+      color: var(--text1);
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+      line-height: 1.2;
+    }
+    .about-hero h1 span { color: var(--orange); }
+    .about-hero p {
+      font-size: 16px;
+      color: var(--text2);
+      max-width: 520px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+
+    .about-body {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px;
+    }
+
+    .about-section {
+      margin-bottom: 48px;
+    }
+
+    .about-section h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text1);
+      margin-bottom: 14px;
+    }
+    .about-section h2 span { color: var(--dark-purple); }
+
+    .about-section p {
+      font-size: 15px;
+      line-height: 1.8;
+      color: var(--text2);
+      margin-bottom: 14px;
+    }
+    .about-section p:last-child { margin-bottom: 0; }
+
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      margin-top: 8px;
+    }
+    .value-card {
+      background: var(--white);
+      border: 2px solid var(--dark-purple);
+      border-radius: var(--r16);
+      padding: 16px;
+      box-shadow: 0 4px 0 #4a1fcc, 0 6px 12px rgba(104,51,255,0.12);
+    }
+    .value-icon {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    .value-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--text1);
+      margin-bottom: 5px;
+    }
+    .value-desc {
+      font-size: 12px;
+      color: var(--text2);
+      line-height: 1.6;
+    }
+
+    .cta-panel {
+      background: var(--dark-purple);
+      border-radius: var(--r20);
+      padding: 36px 28px;
+      text-align: center;
+    }
+    .cta-panel h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+    .cta-panel p {
+      font-size: 15px;
+      color: rgba(255,255,255,0.75);
+      margin-bottom: 24px;
+      line-height: 1.6;
+    }
+    .cta-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+    }
+    .cta-btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--orange);
+      color: var(--white);
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      padding: 12px 24px;
+      border-radius: var(--r50);
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .cta-btn-primary:hover { background: #e67a00; }
+    .cta-btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.12);
+      color: var(--white);
+      font-size: 14px;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+      padding: 12px 24px;
+      border-radius: var(--r50);
+      text-decoration: none;
+      border: 2px solid rgba(255,255,255,0.3);
+      transition: background 0.15s;
+    }
+    .cta-btn-secondary:hover { background: rgba(255,255,255,0.2); }
+
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 0 0 48px;
+    }
+
+    @media (max-width: 600px) {
+      .about-hero h1 { font-size: 24px; }
+      .about-body { padding: 32px 20px; }
+      .cta-panel { padding: 28px 20px; }
+      .values-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo-svg">
+        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="pinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#6833FF"/>
+              <stop offset="100%" style="stop-color:#9B66FF"/>
+            </linearGradient>
+          </defs>
+          <circle cx="19" cy="19" r="16" stroke="#FF8A00" stroke-width="2.5" fill="none"/>
+          <path d="M19 8C14.03 8 10 12.03 10 17C10 22.5 19 30 19 30C19 30 28 22.5 28 17C28 12.03 23.97 8 19 8Z" fill="url(#pinGrad)"/>
+          <circle cx="19" cy="17" r="3.5" fill="white"/>
+        </svg>
+        <a href="index.html" style="text-decoration:none">
+          <div class="logo">
+            <span class="logo-local">Our Local </span><span class="logo-loop">Loop</span>
+          </div>
+        </a>
+      </div>
+      <nav style="margin-left:auto">
+        <a href="index.html" style="font-size:13px;font-weight:600;color:var(--dark-purple);text-decoration:none">← Back to directory</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="about-hero">
+    <h1>Built for <span>local</span> communities.<br>By someone who lives in one.</h1>
+    <p>Our Local Loop is a Western Australian business discovery platform connecting people with the talented local vendors, creatives and service providers right in their own backyard.</p>
+  </section>
+
+  <div class="about-body">
+
+    <div class="about-section">
+      <h2>Why <span>Our Local Loop</span> exists</h2>
+      <p>Finding a great local business shouldn't be hard. But between scrolling endless Facebook groups, trawling through Google results, and asking around in community pages, it often is.</p>
+      <p>Our Local Loop was created to change that. One place to find local makeup artists, photographers, florists, cake designers, hair stylists and more, all based in your community, all ready to help make your next event special.</p>
+      <p>We started in Perth, Mandurah and Rockingham because that's home. As the community grows, so will we.</p>
+    </div>
+
+    <hr class="divider">
+
+    <div class="about-section">
+      <h2>What we <span>believe</span></h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-icon">🌱</div>
+          <div class="value-title">Local first</div>
+          <div class="value-desc">Every business on Our Local Loop is based right here in Western Australia. No national chains, no faceless brands.</div>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">🤝</div>
+          <div class="value-title">Community driven</div>
+          <div class="value-desc">We exist to connect people, not replace the personal touch. Real businesses, real people, real conversations.</div>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">✨</div>
+          <div class="value-title">Quality over quantity</div>
+          <div class="value-desc">Every listing is manually reviewed. We'd rather have fewer great businesses than a directory full of noise.</div>
+        </div>
+        <div class="value-card">
+          <div class="value-icon">💜</div>
+          <div class="value-title">Built with care</div>
+          <div class="value-desc">Our Local Loop is an independent platform made with love for the businesses and communities it serves.</div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="divider">
+
+    <div class="about-section">
+      <h2>For <span>businesses</span></h2>
+      <p>Our Local Loop is designed to help small businesses get discovered by the right people at the right time. Whether you're a solo makeup artist, a home baker, or an established event florist, if you're local and you're great at what you do, we want you here.</p>
+      <p>Listings are currently by application only. We review each business personally before adding them to the directory. To apply, fill in our listing form or get in touch directly.</p>
+      <p>We're growing, and we'd love to grow with you.</p>
+    </div>
+
+    <div class="cta-panel">
+      <h2>Ready to get found?</h2>
+      <p>Apply to list your business on Our Local Loop and start connecting with people in your community who are already looking for what you offer.</p>
+      <div class="cta-buttons">
+        <a href="mailto:ourlocalloop@gmail.com" class="cta-btn-primary">Apply to list your business</a>
+        <a href="mailto:ourlocalloop@gmail.com" class="cta-btn-secondary">Get in touch</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <p>© 2025 Our Local Loop · Western Australia · <a href="mailto:ourlocalloop@gmail.com">ourlocalloop@gmail.com</a> · <a href="https://forms.gle/MzRM2XSE1ScT5haV7" target="_blank" rel="noopener">List your business</a></p>
+  </footer>
+
+</body>
+</html>

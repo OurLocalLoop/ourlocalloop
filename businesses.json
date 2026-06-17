@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Bloom Bridal Beauty",
+    "blurb": "Perth's most sought-after bridal makeup artist with over 8 years experience creating timeless, natural bridal looks. Specialising in weddings, engagements, and formals across the Perth metro area. Every bride deserves to feel effortlessly beautiful on her big day.",
+    "location": "Perth",
+    "categories": ["Makeup Artist", "Bridal Makeup", "Event Beauty"],
+    "eventTypes": ["Wedding", "Engagement", "Prom/Formal"],
+    "photo": "images/bloom-bridal.jpg",
+    "link1": { "label": "Instagram", "url": "https://instagram.com" },
+    "link2": { "label": "Website", "url": "https://example.com" },
+    "googleRating": 4.9,
+    "googleReviewCount": 84,
+    "googleUrl": "https://maps.google.com"
+  },
+  {
+    "id": 2,
+    "name": "Golden Hour Photography",
+    "blurb": "Candid, editorial wedding and portrait photography based in Mandurah. Capturing the in-between moments that tell your story. Available for weddings, engagements, family shoots, and corporate headshots throughout Western Australia. Bookings open for 2025 and 2026.",
+    "location": "Mandurah",
+    "categories": ["Photographer"],
+    "eventTypes": ["Wedding", "Engagement", "Photoshoot", "Corporate"],
+    "photo": "images/golden-hour.jpg",
+    "link1": { "label": "Instagram", "url": "https://instagram.com" },
+    "link2": { "label": "Portfolio", "url": "https://example.com" },
+    "googleRating": 5.0,
+    "googleReviewCount": 47,
+    "googleUrl": "https://maps.google.com"
+  },
+  {
+    "id": 3,
+    "name": "Sweet Layers Cake Studio",
+    "blurb": "Custom celebration cakes handcrafted in Rockingham. From elegant tiered wedding cakes to fun birthday showstoppers, every cake is made from scratch using premium ingredients. Consultations available by appointment. Delivery available across Rockingham and surrounds.",
+    "location": "Rockingham",
+    "categories": ["Cake Maker"],
+    "eventTypes": ["Wedding", "Birthday", "Engagement"],
+    "photo": "images/sweet-layers.jpg",
+    "link1": { "label": "Instagram", "url": "https://instagram.com" },
+    "link2": { "label": "Facebook", "url": "https://facebook.com" },
+    "googleRating": 4.8,
+    "googleReviewCount": 63,
+    "googleUrl": "https://maps.google.com"
+  },
+  {
+    "id": 4,
+    "name": "Petal & Bloom Florals",
+    "blurb": "Bespoke floral design for weddings, events, and special occasions throughout Perth. We work closely with each client to create arrangements that reflect their vision — from wild and romantic to sleek and modern. Bridal bouquets, ceremony arches, table centrepieces, and more.",
+    "location": "Perth",
+    "categories": ["Florist"],
+    "eventTypes": ["Wedding", "Engagement", "Birthday", "Corporate"],
+    "photo": "images/petal-bloom.jpg",
+    "link1": { "label": "Instagram", "url": "https://instagram.com" },
+    "link2": { "label": "Website", "url": "https://example.com" },
+    "googleRating": 4.7,
+    "googleReviewCount": 39,
+    "googleUrl": "https://maps.google.com"
+  },
+  {
+    "id": 5,
+    "name": "Luxe Locks Hair",
+    "blurb": "Mobile bridal and event hair styling servicing Mandurah, Rockingham, and surrounding areas. Specialising in updos, braids, and blow-waves for weddings, formals, and photoshoots. Fully equipped mobile kit — we come to you on the morning of your event.",
+    "location": "Mandurah",
+    "categories": ["Hairdresser/Hair Stylist"],
+    "eventTypes": ["Wedding", "Prom/Formal", "Photoshoot", "Engagement"],
+    "photo": "images/luxe-locks.jpg",
+    "link1": { "label": "Instagram", "url": "https://instagram.com" },
+    "link2": { "label": "Facebook", "url": "https://facebook.com" },
+    "googleRating": 4.9,
+    "googleReviewCount": 28,
+    "googleUrl": "https://maps.google.com"
+  }
+]
