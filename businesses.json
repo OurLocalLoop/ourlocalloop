@@ -76,7 +76,7 @@
     "location": "Online",
     "categories": ["Counselling & Coaching"],
     "eventTypes": ["Everyday / General"],
-    "photo": "vickie-matray.jpeg",
+    "photo": "images/vickie-matray.jpeg",
     "link1": { "label": "Instagram", "url": "https://www.instagram.com/themagicmindsetco" },
     "link2": { "label": "Website", "url": "https://www.themagicmindsetco.com.au" },
     "featured": true
