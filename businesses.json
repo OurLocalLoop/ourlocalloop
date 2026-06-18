@@ -4,25 +4,11 @@
     "name": "Bloom Bridal Beauty",
     "blurb": "Perth's most sought-after bridal makeup artist with over 8 years experience creating timeless, natural bridal looks. Specialising in weddings, engagements, and formals across the Perth metro area. Every bride deserves to feel effortlessly beautiful on her big day.",
     "location": "Perth",
-    "categories": [
-      "Makeup Artist",
-      "Bridal Makeup",
-      "Event Beauty"
-    ],
-    "eventTypes": [
-      "Wedding",
-      "Engagement",
-      "Prom/Formal"
-    ],
+    "categories": ["Makeup Artist", "Bridal Makeup", "Event Beauty"],
+    "eventTypes": ["Wedding", "Engagement", "Prom/Formal"],
     "photo": "images/bloom-bridal.jpg",
-    "link1": {
-      "label": "Instagram",
-      "url": "https://instagram.com"
-    },
-    "link2": {
-      "label": "Website",
-      "url": "https://example.com"
-    },
+    "link1": { "label": "Instagram", "url": "https://instagram.com" },
+    "link2": { "label": "Website", "url": "https://example.com" },
     "googleRating": 4.9,
     "googleReviewCount": 84,
     "googleUrl": "https://maps.google.com"
@@ -32,24 +18,11 @@
     "name": "Golden Hour Photography",
     "blurb": "Candid, editorial wedding and portrait photography based in Mandurah. Capturing the in-between moments that tell your story. Available for weddings, engagements, family shoots, and corporate headshots throughout Western Australia. Bookings open for 2025 and 2026.",
     "location": "Mandurah",
-    "categories": [
-      "Photographer"
-    ],
-    "eventTypes": [
-      "Wedding",
-      "Engagement",
-      "Photoshoot",
-      "Corporate"
-    ],
+    "categories": ["Photographer"],
+    "eventTypes": ["Wedding", "Engagement", "Photoshoot", "Corporate"],
     "photo": "images/golden-hour.jpg",
-    "link1": {
-      "label": "Instagram",
-      "url": "https://instagram.com"
-    },
-    "link2": {
-      "label": "Portfolio",
-      "url": "https://example.com"
-    },
+    "link1": { "label": "Instagram", "url": "https://instagram.com" },
+    "link2": { "label": "Portfolio", "url": "https://example.com" },
     "googleRating": 5,
     "googleReviewCount": 47,
     "googleUrl": "https://maps.google.com"
@@ -59,23 +32,11 @@
     "name": "Sweet Layers Cake Studio",
     "blurb": "Custom celebration cakes handcrafted in Rockingham. From elegant tiered wedding cakes to fun birthday showstoppers, every cake is made from scratch using premium ingredients. Consultations available by appointment. Delivery available across Rockingham and surrounds.",
     "location": "Rockingham",
-    "categories": [
-      "Cake Maker"
-    ],
-    "eventTypes": [
-      "Wedding",
-      "Birthday",
-      "Engagement"
-    ],
+    "categories": ["Cake Maker"],
+    "eventTypes": ["Wedding", "Birthday", "Engagement"],
     "photo": "images/sweet-layers.jpg",
-    "link1": {
-      "label": "Instagram",
-      "url": "https://instagram.com"
-    },
-    "link2": {
-      "label": "Facebook",
-      "url": "https://facebook.com"
-    },
+    "link1": { "label": "Instagram", "url": "https://instagram.com" },
+    "link2": { "label": "Facebook", "url": "https://facebook.com" },
     "googleRating": 4.8,
     "googleReviewCount": 63,
     "googleUrl": "https://maps.google.com"
@@ -83,26 +44,13 @@
   {
     "id": 4,
     "name": "Petal & Bloom Florals",
-    "blurb": "Bespoke floral design for weddings, events, and special occasions throughout Perth. We work closely with each client to create arrangements that reflect their vision — from wild and romantic to sleek and modern. Bridal bouquets, ceremony arches, table centrepieces, and more.",
+    "blurb": "Bespoke floral design for weddings, events, and special occasions throughout Perth. We work closely with each client to create arrangements that reflect their vision. Bridal bouquets, ceremony arches, table centrepieces, and more.",
     "location": "Perth",
-    "categories": [
-      "Florist"
-    ],
-    "eventTypes": [
-      "Wedding",
-      "Engagement",
-      "Birthday",
-      "Corporate"
-    ],
+    "categories": ["Florist"],
+    "eventTypes": ["Wedding", "Engagement", "Birthday", "Corporate"],
     "photo": "images/petal-bloom.jpg",
-    "link1": {
-      "label": "Instagram",
-      "url": "https://instagram.com"
-    },
-    "link2": {
-      "label": "Website",
-      "url": "https://example.com"
-    },
+    "link1": { "label": "Instagram", "url": "https://instagram.com" },
+    "link2": { "label": "Website", "url": "https://example.com" },
     "googleRating": 4.7,
     "googleReviewCount": 39,
     "googleUrl": "https://maps.google.com"
@@ -110,26 +58,13 @@
   {
     "id": 5,
     "name": "Luxe Locks Hair",
-    "blurb": "Mobile bridal and event hair styling servicing Mandurah, Rockingham, and surrounding areas. Specialising in updos, braids, and blow-waves for weddings, formals, and photoshoots. Fully equipped mobile kit — we come to you on the morning of your event.",
+    "blurb": "Mobile bridal and event hair styling servicing Mandurah, Rockingham, and surrounding areas. Specialising in updos, braids, and blow-waves for weddings, formals, and photoshoots. Fully equipped mobile kit, we come to you on the morning of your event.",
     "location": "Mandurah",
-    "categories": [
-      "Hairdresser/Hair Stylist"
-    ],
-    "eventTypes": [
-      "Wedding",
-      "Prom/Formal",
-      "Photoshoot",
-      "Engagement"
-    ],
+    "categories": ["Hairdresser/Hair Stylist"],
+    "eventTypes": ["Wedding", "Prom/Formal", "Photoshoot", "Engagement"],
     "photo": "images/luxe-locks.jpg",
-    "link1": {
-      "label": "Instagram",
-      "url": "https://instagram.com"
-    },
-    "link2": {
-      "label": "Facebook",
-      "url": "https://facebook.com"
-    },
+    "link1": { "label": "Instagram", "url": "https://instagram.com" },
+    "link2": { "label": "Facebook", "url": "https://facebook.com" },
     "googleRating": 4.9,
     "googleReviewCount": 28,
     "googleUrl": "https://maps.google.com"
@@ -137,23 +72,13 @@
   {
     "id": 6,
     "name": "The Magic Mindset Co",
-    "blurb": "Nervous system & somatic expert - counseling, breathwork, nervous system regulation, somatic work all in one place.",
-    "location": "Mandurah",
-    "categories": [
-      "Counselling & Coaching"
-    ],
-    "eventTypes": [
-      "Everyday / General"
-    ],
-    "photo": "images/vickie-matray.jpeg",
-    "link1": {
-      "label": "Instagram",
-      "url": "https://www.instagram.com/themagicmindsetco"
-    },
-    "link2": {
-      "label": "Website",
-      "url": "www.themagicmindsetco.com.au"
-    },
-    "featured": false
+    "blurb": "The Magic Mindset Co offers nervous system and somatic support all in one place, combining counselling, breathwork, nervous system regulation and somatic work to help you feel calmer, clearer and more like yourself.",
+    "location": "Online",
+    "categories": ["Counselling & Coaching"],
+    "eventTypes": ["Everyday / General"],
+    "photo": "vickie-matray.jpeg",
+    "link1": { "label": "Instagram", "url": "https://www.instagram.com/themagicmindsetco" },
+    "link2": { "label": "Website", "url": "https://www.themagicmindsetco.com.au" },
+    "featured": true
   }
 ]
