@@ -186,7 +186,7 @@
   {
     "id": 8,
     "name": "Crumb & Cosy",
-    "blurb": "Custom cakes & cookies for the busy mums who want the magic without the stress!",
+    "blurb": "Custom cakes, cookies and cupcakes.",
     "location": "Mandurah",
     "categories": [
       "Cake Maker",
@@ -205,9 +205,6 @@
       "label": "Instagram",
       "url": "https://www.instagram.com/crumbandcosy"
     },
-    "link2": {
-      "label": "Facebook",
-      "url": "https://www.facebook.com/profile.php?id=61585448105860"
     "featured": false
   }
 ]
